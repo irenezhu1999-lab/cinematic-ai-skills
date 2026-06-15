@@ -1,0 +1,33 @@
+{
+  "name": "irenezhu-skills",
+  "owner": {
+    "name": "irenezhu1999-lab",
+    "url": "https://github.com/irenezhu1999-lab"
+  },
+  "metadata": {
+    "description": "video-taste: Anti-slop AI video generation skill for professional-grade cinematic prompts. Applies directorial prompt structure (Beat Sheet + six-layer system) to Kling, Sora, Wan2.1, and Seedance.",
+    "version": "1.0.0",
+    "repository": "https://github.com/irenezhu1999-lab/Claude-Code-skills-memory"
+  },
+  "plugins": [
+    {
+      "name": "video-taste",
+      "description": "Anti-slop AI video generation skill. Applies Video Read inference and three dials (DRAMA / MOTION / FIDELITY) before writing any image or video prompt. Uses Beat Sheet structure and six-layer directorial prompting to stop Claude from defaulting to generic AI-looking output. Use whenever generating cinematic video prompts for Kling, Sora, Wan2.1, or Seedance.",
+      "source": "./video-taste",
+      "version": "1.1.0",
+      "category": "creative",
+      "keywords": [
+        "video-generation",
+        "prompt-engineering",
+        "cinematography",
+        "kling",
+        "sora",
+        "anti-slop",
+        "beat-sheet",
+        "ai-video",
+        "director",
+        "storyboard"
+      ]
+    }
+  ]
+}
